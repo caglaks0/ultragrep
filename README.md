@@ -112,8 +112,10 @@ python -m ultragrep "def " ./src --json
 
 ## 🖼️ Görsel Arayüz (GUI) Kullanımı
 
-```bash
+
+```markdown
 python ultragrep/ultragrep_gui.py
+
 ![UI](https://github.com/user-attachments/assets/d22812d6-6106-4c14-9c62-73eade5c204c)
 
 ![UI](https://github.com/user-attachments/assets/2cace6da-54dc-479f-92a3-45dc729e6d90)
@@ -121,9 +123,6 @@ python ultragrep/ultragrep_gui.py
 ![UI](https://github.com/user-attachments/assets/4016bb36-a3aa-4595-9222-b59a6ac7ded4)
 
 
-
-
-```
 
 ### GUI Özellikleri
 - Klasör seçici
