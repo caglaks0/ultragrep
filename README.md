@@ -173,12 +173,12 @@ ultragrep/
 
 🎯 Proje Amacı
 
+---
 Bu proje, klasik grep araçlarının ötesine geçerek:
 
 Daha hızlı
 Daha akıllı
 Daha kullanıcı dostu
-
 bir arama sistemi geliştirmek amacıyla yapılmıştır.
 
 ---
