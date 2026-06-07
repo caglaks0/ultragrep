@@ -1,6 +1,16 @@
-# 🔍 UltraGrep — Ripgrep'ten Daha Akıllı Kod Arama Aracı
+# 🔍 UltraGrep — Akıllı ve Hızlı Kod Arama Aracı
 
-**UltraGrep**, Rust ile yazılmış `ripgrep`'e kıyasla daha zengin özellikler sunan, Python ile geliştirilmiş bir kod arama ve değiştirme aracıdır. Hem komut satırı (CLI) hem de görsel arayüz (GUI) desteği içerir.
+**UltraGrep**, Rust ile yazılmış `ripgrep`'e kıyasla daha zengin özelliklerle geliştirilmiştir.
+yüksek performanslı ve özellik açısından zengin bir **kod arama ve değiştirme aracıdır**.
+
+Python ile geliştirilmiş olup:
+- ⚡ Çok hızlı arama (mmap + multiprocessing)
+- 🧠 Akıllı analiz (fonksiyon/sınıf tespiti)
+- ✏️ Find & Replace desteği
+- 🖥️ CLI + GUI kullanım
+
+sunmaktadır.
+
 
 ---
 
@@ -136,6 +146,17 @@ python ultragrep/ultragrep_gui.py
 
 ---
 
+Nasıl Çalışır?
+
+UltraGrep performansı artırmak için:
+
+📦 mmap → dosyaları RAM gibi okur (çok hızlı)
+⚡ multiprocessing → aynı anda birden fazla dosya tarar
+🚫 binary filtreleme → gereksiz dosyaları atlar
+📂 recursive search → tüm klasörü tarar
+
+---
+
 ## 📁 Proje Yapısı
 
 ```
@@ -147,7 +168,18 @@ ultragrep/
 │   └── gui.py           # PyQt5 görsel arayüzü
 ├── setup.py             # pip ile kurulum
 └── README.md            # Bu dosya
+
 ```
+
+🎯 Proje Amacı
+
+Bu proje, klasik grep araçlarının ötesine geçerek:
+
+Daha hızlı
+Daha akıllı
+Daha kullanıcı dostu
+
+bir arama sistemi geliştirmek amacıyla yapılmıştır.
 
 ---
 
