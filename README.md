@@ -174,6 +174,7 @@ ultragrep/
 🎯 Proje Amacı
 
 ---
+
 Bu proje, klasik grep araçlarının ötesine geçerek:
 
 Daha hızlı
