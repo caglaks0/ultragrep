@@ -1,3 +1,4 @@
 Merhaba  dunya
 test kelime
 araba
+bu bir error mesajı.
