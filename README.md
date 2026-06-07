@@ -177,9 +177,9 @@ ultragrep/
 
 Bu proje, klasik grep araçlarının ötesine geçerek:
 
-Daha hızlı
-Daha akıllı
-Daha kullanıcı dostu
+Daha hızlı,
+daha akıllı,
+daha kullanıcı dostu
 bir arama sistemi geliştirmek amacıyla yapılmıştır.
 
 ---
