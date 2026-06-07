@@ -184,6 +184,4 @@ bir arama sistemi geliştirmek amacıyla yapılmıştır.
 
 ---
 
-## 📜 Lisans
 
-MIT License
